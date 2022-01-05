@@ -3,7 +3,7 @@ require 'pry-byebug'
 def bubble_sort(array)
   # sort an array with bubble sort method
 
-  binding.pry
+  # binding.pry
 
   (0...array.length-1).each do |i|
     array.each_with_index do |value, index|

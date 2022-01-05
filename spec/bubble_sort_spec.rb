@@ -9,19 +9,19 @@ RSpec.describe 'BubbleSort' do
       expect(bubble_sort(array)).to eq(result)
     end
 
-    xit 'can sort when two numbers are out of order' do
+    it 'can sort when two numbers are out of order' do
       array = [1, 5, 2, 4, 3]
       result = [1, 2, 3, 4, 5]
       expect(bubble_sort(array)).to eq(result)
     end
 
-    xit 'can sort worst case of descending order' do
+    it 'can sort worst case of descending order' do
       array = [5, 4, 3, 2, 1]
       result = [1, 2, 3, 4, 5]
       expect(bubble_sort(array)).to eq(result)
     end
 
-    xit 'returns correct result when array already sorted' do
+    it 'returns correct result when array already sorted' do
       array = [1, 2, 3, 4, 5]
       result = [1, 2, 3, 4, 5]
       expect(bubble_sort(array)).to eq(result)
